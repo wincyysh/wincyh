@@ -1,4 +1,15 @@
 .profile-img {
-  aspect-ratio: auto;
+  width: 400;
+  height: auto;
   border-radius: 50%;
+  background-color: #EEBE65;
+}
+
+.nav-link {
+  color: black;         /* This changes the text color */
+}
+
+.nav-link svg {
+  color: black;
+  fill: black;
 }
