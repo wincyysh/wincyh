@@ -6,14 +6,73 @@
 }
 
 .nav-link {
-  color: black;         /* This changes the text color */
+  color: #000000;         /* This changes the text color */
 }
 
 .nav-link svg {
-  color: black;
-  fill: black;
+  color: #000000;
+  fill: #000000;
 }
 
-.body{
-  background-color: black;
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+ /* or any color you prefer */
+
+  color: #646cff; 
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #000000;  /* This makes text white for better contrast */
+}
+
+
+/* #F8FAFD */
+
+.bubble-container {
+  position: fixed;
+  bottom: 0;
+  /* right: 0; */
+  width: 100%;  /* Default for mobile: similar to col-10 */
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* Small devices (≥576px) */
+@media (min-width: 576px) {
+  .bubble-container {
+    width: 80%;  /* Similar to col-sm-8 */
+  }
+}
+
+/* Large devices (≥992px) */
+@media (min-width: 992px) {
+  .bubble-container {
+    width: 50%;  /* Similar to col-lg-6 */
+  }
+}
+
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  background: #EEBE65;
+  border: 2px solid #EEBE65;
+  animation: float var(--duration) ease-in-out forwards;
+  bottom: -20px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-100vh) translateX(var(--drift));
+    opacity: 0;
+  }
 }
