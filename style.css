@@ -5,6 +5,10 @@
   background-color: #EEBE65;
 }
 
+h1 {
+  text-align: center;
+}
+
 .nav-link {
   color: #000000;         /* This changes the text color */
 }
