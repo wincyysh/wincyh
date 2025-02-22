@@ -23,9 +23,9 @@ This repository contains the source code for my **portfolio website**, where I s
 
 I'm always open to new opportunities, collaborations, or just geeky tech chats! You can find me here:
 
-- 🌐 [Portfolio Website](https://wincyysh.com/)
-- 📧 Email: [youremail@example.com](mailto:youremail@wincy.yingshi.huang@gmail.com)
-- 💼 LinkedIn: [Your Profile](https://linkedin.com/in/wincyysh)
+- 🌐 [wincyysh.com](https://wincyysh.com/)
+- 📧 Email: [wincy.yingshi.huang@gmail.com](mailto:youremail@wincy.yingshi.huang@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/wincyysh.com](https://linkedin.com/in/wincyysh)
 
 ---
 
